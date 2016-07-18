@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "29980a051df057db6da62572c2e693b2",
-    "content-hash": "c0a9b1a51a176fc0baf5ff3ab9ca7db4",
+    "hash": "124d7ddfd8f772e10e33bcd68b044d6d",
+    "content-hash": "44cca8d869988570537c0a01d852f339",
     "packages": [
         {
             "name": "composer/composer",
@@ -1432,6 +1432,26 @@
             "time": "2016-04-29 00:31:30"
         },
         {
+            "name": "wpackagist-plugin/akismet",
+            "version": "3.1.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/3.1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.11.zip",
+                "reference": "tags/3.1.11",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
             "version": "0.9.12",
             "source": {
@@ -1472,16 +1492,36 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
-            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.8.1",
+            "name": "wpackagist-plugin/custom-permalinks",
+            "version": "0.7.25",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
+                "url": "https://plugins.svn.wordpress.org/custom-permalinks/",
+                "reference": "tags/0.7.25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.7.25.zip",
+                "reference": "tags/0.7.25",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-permalinks/"
+        },
+        {
+            "name": "wpackagist-plugin/favicon-by-realfavicongenerator",
+            "version": "1.3.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/favicon-by-realfavicongenerator/",
                 "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "url": "https://downloads.wordpress.org/plugin/favicon-by-realfavicongenerator.zip",
                 "reference": "trunk",
                 "shasum": null
             },
@@ -1489,7 +1529,127 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
+        },
+        {
+            "name": "wpackagist-plugin/googleanalytics",
+            "version": "1.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/googleanalytics/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/googleanalytics.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/googleanalytics/"
+        },
+        {
+            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.1.8.1.zip",
+                "reference": "tags/1.8.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-lightbox",
+            "version": "2.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-lightbox/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-lightbox.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-lightbox/"
+        },
+        {
+            "name": "wpackagist-plugin/slideshare-oembed-for-wordpress",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/slideshare-oembed-for-wordpress/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/slideshare-oembed-for-wordpress.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/slideshare-oembed-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/subscribe-to-comments-reloaded",
+            "version": 160116,
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/subscribe-to-comments-reloaded/",
+                "reference": "tags/160116"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/subscribe-to-comments-reloaded.160116.zip",
+                "reference": "tags/160116",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/subscribe-to-comments-reloaded/"
+        },
+        {
+            "name": "wpackagist-plugin/syntaxhighlighter",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/syntaxhighlighter/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/syntaxhighlighter.3.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/syntaxhighlighter/"
         }
     ],
     "packages-dev": [],
