@@ -27,7 +27,8 @@
 		"wpackagist-plugin/simple-lightbox": "^2.5.3",
 		"wpackagist-plugin/slideshare-oembed-for-wordpress": "^1.0.0",
 		"wpackagist-plugin/subscribe-to-comments-reloaded": "^160116",
-		"wpackagist-plugin/syntaxhighlighter": "^3.2.1"
+		"wpackagist-plugin/syntaxhighlighter": "^3.2.1",
+		"wpackagist-theme/sparkling": "^2.2.2"
 	},
 	"scripts": {
 		"wordpress-setup-core-install-prompt": "wp core install --prompt",

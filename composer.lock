@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "124d7ddfd8f772e10e33bcd68b044d6d",
-    "content-hash": "44cca8d869988570537c0a01d852f339",
+    "hash": "b4f13bc0b05eb47d4af173baa0e877ce",
+    "content-hash": "08ef43d5467d5cfd47499d8fae2c99d8",
     "packages": [
         {
             "name": "composer/composer",
@@ -1642,7 +1642,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/syntaxhighlighter.3.2.1.zip",
-                "reference": null,
+                "reference": "tags/3.2.1",
                 "shasum": null
             },
             "require": {
@@ -1650,6 +1650,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/syntaxhighlighter/"
+        },
+        {
+            "name": "wpackagist-theme/sparkling",
+            "version": "2.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/sparkling/",
+                "reference": "2.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/sparkling.2.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/sparkling/"
         }
     ],
     "packages-dev": [],
