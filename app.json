@@ -29,7 +29,6 @@
 	},
 	"addons": [
 		"jawsdb",
-		"bucketeer",
 		"sendgrid"
 	],
 	"image": "heroku/php"
