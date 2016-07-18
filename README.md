@@ -1,3 +1,12 @@
+#
+
+This repo is a clone of [David Zuelkes Wordpress/Heroku repo](https://github.com/dzuelke/wordpress-12factor) and contains configuration changes for my personal blog which can be found on https://blog.winkelmeyer.com.
+
+
+
+
+
+
 # Twelve-Factor WordPress
 
 WordPress, the [Twelve-Factor](http://12factor.net/) way: fully managed using Composer and configured using environment variables.
@@ -108,9 +117,9 @@ $ heroku open
     ```
     composer require wpackagist-plugin/akismet:^3.1.7
     ```
-    
+
     or
-    
+
     ```
     composer require wpackagist-plugin/hueman:^1.5.7
     ```
