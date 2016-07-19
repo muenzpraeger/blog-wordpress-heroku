@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5531bd8eb8b28213f990bbc64396f1e",
-    "content-hash": "1328fa45cc81e0f1bdd7cc3adbc52719",
+    "hash": "2cfcabf824886d4e53314f3f3e48d8f2",
+    "content-hash": "3fe23f37f15dd25b5d254c0145ce493c",
     "packages": [
         {
             "name": "composer/composer",
@@ -1462,7 +1462,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.0.4.zip",
-                "reference": null,
+                "reference": "tags/1.0.4",
                 "shasum": null
             },
             "require": {
@@ -1650,6 +1650,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/syntaxhighlighter/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-theme/sparkling",
