@@ -39,6 +39,13 @@
 		"wordpress-setup-configure-s3": "echo '{\"domain\":\"path\",\"copy-to-s3\":\"1\",\"serve-from-s3\":\"1\",\"ssl\":\"request\"}' | wp option add tantan_wordpress_s3 --format=json",
 		"wordpress-setup-enable-plugins": "wp plugin activate akismet subscribe-to-comments-reloaded public-post-preview syntaxhighlighter custom-permalinks simple-lightbox googleanalytics slideshare-oembed-for-wordpress  favicon-by-realfavicongenerator amazon-web-services amazon-s3-and-cloudfront sendgrid-email-delivery-simplified",
 		"wordpress-setup-permalink-structure": "wp rewrite structure '/%year%/%monthnum%/%day%/%postname%/' || true",
+		"post-update-cmd": [
+			"@custom-apply-theme-changes"
+		],
+		"custom-apply-theme-changes": [
+			"php -r \"copy('sparkling-theme-customizations/*.php', 'wordpress/wp-content/themes/sparkling/');\"",
+			"php -r \"copy('sparkling-theme-customizations/inc/*.php', 'wordpress/wp-content/themes/sparkling/inc/');\""
+		],
 		"wordpress-setup": [
 			"@wordpress-setup-core-install-prompt",
 			"@wordpress-setup-finalize"
