@@ -169,7 +169,7 @@ function sparkling_social(){
       'skype'       => 'Skype',
       'foursquare'  => 'Foursquare',
       'soundcloud'  => 'SoundCloud',
-      'xing'        => 'Xing'
+      'xing'        => 'Xing',
       'github'      => 'GitHub'
       );
 
