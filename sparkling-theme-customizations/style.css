@@ -1247,6 +1247,9 @@ p.logged-in-as {
 .social-icons a.xing:hover {
   background-color: #126567 !important;
 }
+.social-icons a.github:hover {
+  background-color: #000000 !important;
+}
 .social-icons a.twitter:hover {
   background-color: #55ACEE !important;
 }

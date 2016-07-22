@@ -170,6 +170,7 @@ function sparkling_social(){
       'foursquare'  => 'Foursquare',
       'soundcloud'  => 'SoundCloud',
       'xing'        => 'Xing'
+      'github'      => 'GitHub'
       );
 
     echo '<div class="social-icons">';
