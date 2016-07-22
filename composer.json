@@ -39,7 +39,7 @@
 		"wordpress-setup-configure-s3": "echo '{\"domain\":\"path\",\"copy-to-s3\":\"1\",\"serve-from-s3\":\"1\",\"ssl\":\"request\"}' | wp option add tantan_wordpress_s3 --format=json",
 		"wordpress-setup-enable-plugins": "wp plugin activate akismet subscribe-to-comments-reloaded public-post-preview syntaxhighlighter custom-permalinks simple-lightbox googleanalytics slideshare-oembed-for-wordpress  favicon-by-realfavicongenerator amazon-web-services amazon-s3-and-cloudfront sendgrid-email-delivery-simplified",
 		"wordpress-setup-permalink-structure": "wp rewrite structure '/%year%/%monthnum%/%day%/%postname%/' || true",
-		"post-dependencies-solving": [
+		"post-package-install": [
 			"@custom-apply-theme-changes"
 		],
 		"custom-apply-theme-changes": [
