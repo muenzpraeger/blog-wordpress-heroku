@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "888e3985b6d513bff590a2d64261f755",
-    "content-hash": "3dc8130def3ba35a2572ccf551652259",
+    "hash": "8989274dc889aa38e6903c8b5277ec90",
+    "content-hash": "c377a862ff5eea4d409f5d1a5f6da594",
     "packages": [
         {
             "name": "composer/composer",
@@ -1562,7 +1562,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.5.0.zip",
-                "reference": null,
+                "reference": "tags/2.5.0",
                 "shasum": null
             },
             "require": {
@@ -1693,16 +1693,16 @@
         },
         {
             "name": "wpackagist-theme/sparkling",
-            "version": "2.2.2",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/sparkling/",
-                "reference": "2.2.2"
+                "reference": "1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sparkling.2.2.2.zip",
-                "reference": "2.2.2",
+                "url": "https://downloads.wordpress.org/theme/sparkling.1.5.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
