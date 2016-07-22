@@ -1,9 +1,6 @@
-#
-
 This repo is a clone of [David Zuelkes Wordpress/Heroku repo](https://github.com/dzuelke/wordpress-12factor) and contains configuration changes for my personal blog which can be found on https://blog.winkelmeyer.com.
 
-
-
+Read the original and extensive documentation below when you want to apply changes.
 
 
 
