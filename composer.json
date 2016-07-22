@@ -43,8 +43,8 @@
 			"@custom-apply-theme-changes"
 		],
 		"custom-apply-theme-changes": [
-			"php -r \"copy('sparkling-theme-customizations/*.php', 'wordpress/wp-content/themes/sparkling/');\"",
-			"php -r \"copy('sparkling-theme-customizations/inc/*.php', 'wordpress/wp-content/themes/sparkling/inc/');\""
+			"php -r \"copy('/sparkling-theme-customizations/*', '/wordpress/wp-content/themes/sparkling/');\"",
+			"php -r \"copy('/sparkling-theme-customizations/inc/*.php', '/wordpress/wp-content/themes/sparkling/inc/');\""
 		],
 		"wordpress-setup": [
 			"@wordpress-setup-core-install-prompt",
