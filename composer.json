@@ -43,13 +43,13 @@
 			"@custom-apply-theme-changes"
 		],
 		"custom-apply-theme-changes": [
-			"php -r \"copy('/app/sparkling-theme-customizations/403.php', '/app/wordpress/wp-content/themes/sparkling/403.php');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/comments.php', '/app/wordpress/wp-content/themes/sparkling/comments.php');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/content-single.php', '/app/wordpress/wp-content/themes/sparkling/content-single.php');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/content.php', '/app/wordpress/wp-content/themes/sparkling/content.php');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/options.php', '/app/wordpress/wp-content/themes/sparkling/options.php');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/style.css', '/app/wordpress/wp-content/themes/sparkling/style.css');\"",
-			"php -r \"copy('/app/sparkling-theme-customizations/inc/extras.php', '/app/wordpress/wp-content/themes/sparkling/inc/extras.php');\""
+			"php -r \"copy('sparkling-theme-customizations/403.php', 'wordpress/wp-content/themes/sparkling/403.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/comments.php', 'wordpress/wp-content/themes/sparkling/comments.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/content-single.php', 'wordpress/wp-content/themes/sparkling/content-single.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/content.php', 'wordpress/wp-content/themes/sparkling/content.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/options.php', 'wordpress/wp-content/themes/sparkling/options.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/style.css', 'wordpress/wp-content/themes/sparkling/style.css');\"",
+			"php -r \"copy('sparkling-theme-customizations/inc/extras.php', 'wordpress/wp-content/themes/sparkling/inc/extras.php');\""
 		],
 		"wordpress-setup": [
 			"@wordpress-setup-core-install-prompt",
