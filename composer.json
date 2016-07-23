@@ -48,6 +48,7 @@
 			"php -r \"copy('sparkling-theme-customizations/content-single.php', 'wordpress/wp-content/themes/sparkling/content-single.php');\"",
 			"php -r \"copy('sparkling-theme-customizations/content.php', 'wordpress/wp-content/themes/sparkling/content.php');\"",
 			"php -r \"copy('sparkling-theme-customizations/options.php', 'wordpress/wp-content/themes/sparkling/options.php');\"",
+			"php -r \"copy('sparkling-theme-customizations/footer.php', 'wordpress/wp-content/themes/sparkling/footer.php');\"",
 			"php -r \"copy('sparkling-theme-customizations/style.css', 'wordpress/wp-content/themes/sparkling/style.css');\"",
 			"php -r \"copy('sparkling-theme-customizations/inc/extras.php', 'wordpress/wp-content/themes/sparkling/inc/extras.php');\""
 		],
