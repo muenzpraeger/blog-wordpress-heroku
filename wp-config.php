@@ -9,6 +9,11 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 $table_prefix  = 'wp_';
 
+define('DBI_AWS_ACCESS_KEY_ID', getenv('AWS_ACCESS_KEY_ID'));
+define('DBI_AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
+define('AS3CF_BUCKET', getenv('S3_BUCKET'));
+if(getenv('S3_REGION')) define('AS3CF_REGION', getenv('S3_REGION'));
+
 define('SENDGRID_AUTH_METHOD', 'credentials');
 define('SENDGRID_USERNAME', getenv('SENDGRID_USERNAME'));
 define('SENDGRID_PASSWORD', getenv('SENDGRID_PASSWORD'));
