@@ -1,7 +1,15 @@
 This repo is a clone of [David Zuelkes Wordpress/Heroku repo](https://github.com/dzuelke/wordpress-12factor) and contains configuration changes for my personal blog which can be found on https://blog.winkelmeyer.com.
 
-Read the original and extensive documentation below when you want to apply changes.
+There are the main changes in this repo compared to the original one:
+* Removed the [Bucketeer addon](https://elements.heroku.com/addons/bucketeer) as I'm using a Wordpress addon for accesing AWS S3 instead.
+* Replaced the Twelve-Factor theme with the [Colorlib Sparkling theme](https://colorlib.com/wp/support/sparkling/).
+* Added some customizations to the Sparkling theme (can be found in the [sparkling-theme-customizations](https://github.com/muenzpraeger/blog-wordpress-heroku/tree/master/sparkling-theme-customizations) subfolder).
+* Changed/added some Wordpress addons.
+* Using nginx instead of Apache for serving web components.
 
+A short reference to my experiences can be found here: https://blog.winkelmeyer.com/2016/07/seamless-change-moved-this-blog-to-heroku.
+
+Read the original and extensive documentation (kudos to David!) below when you want to apply changes.
 
 
 # Twelve-Factor WordPress
