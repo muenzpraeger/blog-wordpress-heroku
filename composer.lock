@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b842ff2f9e6a0542e8d937ee1c4a4c9",
-    "content-hash": "8292ce8e03401def2e8f0660d9904d3d",
+    "hash": "3d47bc61913bed7e5ad0d05292563b95",
+    "content-hash": "fec689a3ec7cab5aadbd26d267d639cd",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1582,7 +1582,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
-                "reference": null,
+                "reference": "tags/0.3.6",
                 "shasum": null
             },
             "require": {
@@ -1602,7 +1602,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.7.27.zip",
-                "reference": null,
+                "reference": "tags/0.7.27",
                 "shasum": null
             },
             "require": {
@@ -1682,7 +1682,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1792,6 +1792,26 @@
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
+            "name": "wpackagist-plugin/wp-fastest-cache",
+            "version": "0.8.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fastest-cache/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-fastest-cache/"
+        },
+        {
             "name": "wpackagist-theme/sparkling",
             "version": "1.9.3",
             "source": {
@@ -1802,7 +1822,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/sparkling.1.9.3.zip",
-                "reference": null,
+                "reference": "1.9.3",
                 "shasum": null
             },
             "require": {

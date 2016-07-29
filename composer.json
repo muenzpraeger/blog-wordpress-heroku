@@ -30,7 +30,8 @@
 		"wpackagist-plugin/syntaxhighlighter": "^3.2.1",
 		"wpackagist-theme/sparkling": "1.9.3",
 		"wpackagist-plugin/wordpress-importer": "0.6.2",
-		"wpackagist-plugin/public-post-preview": "^2.5.0"
+		"wpackagist-plugin/public-post-preview": "^2.5.0",
+		"wpackagist-plugin/wp-fastest-cache": "^0.8.6.0"
 	},
 	"scripts": {
 		"wordpress-setup-core-install-prompt": "wp core install --prompt",
