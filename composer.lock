@@ -1593,16 +1593,16 @@
         },
         {
             "name": "wpackagist-plugin/custom-permalinks",
-            "version": "0.7.27",
+            "version": "0.7.28",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-permalinks/",
-                "reference": "tags/0.7.27"
+                "reference": "tags/0.7.28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.7.27.zip",
-                "reference": "tags/0.7.27",
+                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.7.28.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1613,7 +1613,7 @@
         },
         {
             "name": "wpackagist-plugin/favicon-by-realfavicongenerator",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/favicon-by-realfavicongenerator/",
@@ -1673,7 +1673,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.8.2",
+            "version": "1.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -1682,7 +1682,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
