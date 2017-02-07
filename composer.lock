@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "896e2d909beade0247cb14e7b59a8e28",
-    "content-hash": "8fac4ead092fe930b4259bf5404ee5cb",
+    "hash": "f3f398d033fe4499f42b75c758b3c126",
+    "content-hash": "d8ed0dd53f84be651a14b877c4c5adcf",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1713,15 +1713,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.7",
+            "version": "1.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/0.3.7"
+                "reference": "tags/1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1733,15 +1733,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-permalinks",
-            "version": "0.7.28",
+            "version": "0.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-permalinks/",
-                "reference": "tags/0.7.28"
+                "reference": "tags/0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.7.28.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1773,15 +1773,15 @@
         },
         {
             "name": "wpackagist-plugin/googleanalytics",
-            "version": "1.0.7",
+            "version": "2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/googleanalytics/",
-                "reference": "tags/1.0.7"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/googleanalytics.1.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/googleanalytics.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1873,15 +1873,15 @@
         },
         {
             "name": "wpackagist-plugin/subscribe-to-comments-reloaded",
-            "version": 160116,
+            "version": 160915,
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/subscribe-to-comments-reloaded/",
-                "reference": "tags/160116"
+                "reference": "tags/160915"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/subscribe-to-comments-reloaded.160116.zip",
+                "url": "https://downloads.wordpress.org/plugin/subscribe-to-comments-reloaded.160915.zip",
                 "reference": null,
                 "shasum": null
             },
