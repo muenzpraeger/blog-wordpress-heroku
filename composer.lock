@@ -811,24 +811,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/muenzpraeger/wordpress-quip-importer.git",
-                "reference": "73bf69c51c511f92eca00d29485530b7fc0dbeb1"
+                "reference": "b677a3d09c17ce35f636b7b652354b5c836b4983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/73bf69c51c511f92eca00d29485530b7fc0dbeb1",
-                "reference": "73bf69c51c511f92eca00d29485530b7fc0dbeb1",
+                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/b677a3d09c17ce35f636b7b652354b5c836b4983",
+                "reference": "b677a3d09c17ce35f636b7b652354b5c836b4983",
                 "shasum": ""
             },
             "require": {
+                "composer/installers": "v1.2.0",
                 "guzzlehttp/guzzle": "^6.2",
                 "league/html-to-markdown": "*"
             },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "muenzpraeger\\quip-importer": "src"
-                }
-            },
+            "type": "wordpress-plugin",
             "authors": [
                 {
                     "name": "René Winkelmeyer",
@@ -840,7 +836,7 @@
                 "source": "https://github.com/muenzpraeger/wordpress-quip-importer/tree/master",
                 "issues": "https://github.com/muenzpraeger/wordpress-quip-importer/issues"
             },
-            "time": "2017-03-21 19:04:36"
+            "time": "2017-03-21 19:30:04"
         },
         {
             "name": "mustache/mustache",
