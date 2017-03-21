@@ -3,8 +3,12 @@
 		{
 			"type": "composer",
 			"url": "https://wpackagist.org"
-		}
-	],
+		},
+		{
+        	"type": "vcs",
+        	"url": "https://github.com/muenzpraeger/wordpress-quip-importer"
+    	}
+    ],
 	"extra": {
 		"wordpress-install-dir": "wordpress",
 		"installer-paths": {
@@ -31,7 +35,8 @@
 		"wpackagist-theme/sparkling": "1.9.3",
 		"wpackagist-plugin/wordpress-importer": "0.6.2",
 		"wpackagist-plugin/public-post-preview": "^2.5.0",
-		"wpackagist-plugin/wp-fastest-cache": "^0.8.6"
+		"wpackagist-plugin/wp-fastest-cache": "^0.8.6",
+		"muenzpraeger/quip-importer": "dev-master"
 	},
 	"scripts": {
 		"wordpress-setup-core-install-prompt": "wp core install --prompt",
