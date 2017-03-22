@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/muenzpraeger/wordpress-quip-importer.git",
-                "reference": "47eb86ba4d28835b9fd210e77ca31a21dc6e468d"
+                "reference": "0247f5d4da31a0c8e1db65368ed801a65361af9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/47eb86ba4d28835b9fd210e77ca31a21dc6e468d",
-                "reference": "47eb86ba4d28835b9fd210e77ca31a21dc6e468d",
+                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/0247f5d4da31a0c8e1db65368ed801a65361af9f",
+                "reference": "0247f5d4da31a0c8e1db65368ed801a65361af9f",
                 "shasum": ""
             },
             "require": {
@@ -836,7 +836,7 @@
                 "source": "https://github.com/muenzpraeger/wordpress-quip-importer/tree/master",
                 "issues": "https://github.com/muenzpraeger/wordpress-quip-importer/issues"
             },
-            "time": "2017-03-21 20:23:57"
+            "time": "2017-03-22 13:08:10"
         },
         {
             "name": "mustache/mustache",
