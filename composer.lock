@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc14c16a366257dd2ad7e7534aaa1d4b",
-    "content-hash": "d5a171b0e7355dd493214d6ba9e2d3c2",
+    "hash": "dee3998d56399f86497816898361cf7f",
+    "content-hash": "dc7f847e5fda669705a9ac5d5b6f81d7",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -806,17 +806,17 @@
             "time": "2017-03-16 00:45:59"
         },
         {
-            "name": "muenzpraeger/2quip-importer",
+            "name": "muenzpraeger/quip-importer",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muenzpraeger/wordpress-quip-importer.git",
-                "reference": "8049d3f45a4453d15d67f07c2a81c4dba6052dc7"
+                "reference": "5328e1ff704dbafe1cdb165b6bf82b5d0a5b6583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/8049d3f45a4453d15d67f07c2a81c4dba6052dc7",
-                "reference": "8049d3f45a4453d15d67f07c2a81c4dba6052dc7",
+                "url": "https://api.github.com/repos/muenzpraeger/wordpress-quip-importer/zipball/5328e1ff704dbafe1cdb165b6bf82b5d0a5b6583",
+                "reference": "5328e1ff704dbafe1cdb165b6bf82b5d0a5b6583",
                 "shasum": ""
             },
             "require": {
@@ -836,7 +836,7 @@
                 "source": "https://github.com/muenzpraeger/wordpress-quip-importer/tree/master",
                 "issues": "https://github.com/muenzpraeger/wordpress-quip-importer/issues"
             },
-            "time": "2017-03-22 13:41:01"
+            "time": "2017-03-22 13:46:24"
         },
         {
             "name": "mustache/mustache",
@@ -2344,7 +2344,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "muenzpraeger/2quip-importer": 20
+        "muenzpraeger/quip-importer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
